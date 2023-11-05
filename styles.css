@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url('background-image.jpg'); */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    /* background-image: linear-gradient(to right, red , yellow); */
+    background-color: orangered;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    /* list-style: none; */
+    text-align: center;
+    background-color: darkblue;
+    /* background-image: linear-gradient(to right, darkblue , blue); */
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    list-style-type: none;
+    gap: 30px;
+    
+}
+
+/* nav li {
+    display: inline;
+    margin-right: 20px;
+} */
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    /* transition: color 0.3s; */
+}
+
+
+.parent a:hover{
+  transition: all 0.8s;
+  color: orangered;
+  font-weight: 400;
+  font-size: medium;
+
+}
+
+
+
+#about-content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+h2 {
+    /* color: #3498db; */
+    color: red;
+}
+
+footer {
+    text-align: center;
+    /* background-color: rgba(52, 152, 219, 0.8); */
+    background-image: linear-gradient(to right, darkblue , blue);
+    /* background-color: darkblue; */
+    color: #fff;
+    padding: 10px;
+}
+
+.founder-flex{
+    display: flex;
+    gap: 25px;
+}
+
+.board-member1{
+    display: flex;
+    gap: 25px;
+}
+.board-member2{
+    display: flex;
+    gap: 25px;
+}
+
+.dropbtn {
+    /* background-color: #04AA6D; */
+    background-color: darkblue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+  .dropdown:hover .dropbtn {background-color: orangered;}
+
+footer p a:hover{
+    transition: all 0.8s;
+    color: orangered;
+    font-weight: 400;
+    font-size: medium;
+  }
+
+  .foot:hover{
+    transition: all 0.8s;
+    color: orangered;
+    font-weight: 400;
+    font-size: medium;
+  }
+
+.myimg{
+    display: flex;
+    flex-wrap: nowrap;
+}
